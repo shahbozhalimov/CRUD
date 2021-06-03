@@ -19,6 +19,7 @@ public class Student extends AbsEntity {
 
     private String lastName;
 
+
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Groups group;
 
